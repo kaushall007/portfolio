@@ -1,344 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <!-- =====BOX ICONS===== -->
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'/>
-    <link rel="stylesheet" href="https://www.bootstrapcdn.com/fontawesome/">
-    <link rel="icon" type="image/png" href="favicon.png" sizes="50x50">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha1/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-
-    <title>Kaushal-portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kaushal Singh Chamyal | Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+<header class="header">
+<div class="logo">KS</div>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#experience">Experience</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
 
-    <!--===== HEADER =====-->
-    <header class="l-header">
-        <nav class="nav bd-grid">
-            <div>
-                <a href="#" class="nav__logo">Kaushal</a>
-            </div>
+<section id="home" class="hero">
+<div class="hero-content">
+<h1>Kaushal Singh Chamyal</h1>
+<h2>Data Analyst • Zoho Consultant • SaaS Operations</h2>
+<p>Transforming business data into actionable insights with Python, SQL, Power BI, Tableau and Zoho Analytics.</p>
+<a class="btn" href="#projects">View Projects</a>
+</div>
+</section>
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">Project</a></li>
-                    <li class="nav__item"><a href="#certificates" class="nav__link">Certificates</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                   
-                </ul>
-            </div>
+<section id="about">
+<h2>About Me</h2>
+<p>B.Tech CSE graduate passionate about analytics, automation and business intelligence.</p>
+</section>
 
-            <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
-            </div>
-        </nav>
-    </header>
+<section id="experience">
+<h2>Experience</h2>
+<div class="card">
+<h3>Tech for Social Good / Appo</h3>
+<p>SaaS Automation & Founder's Office Associate</p>
+<ul>
+<li>Managed Zoho One ecosystem</li>
+<li>Built CRM automations</li>
+<li>Created analytics dashboards</li>
+<li>Worked with international organizations</li>
+</ul>
+</div>
+</section>
 
-    <main class="l-main">
-        <!--===== HOME =====-->
-        <section class="home bd-grid" id="home">
-            <div class="home__data">
-                <h1 class="home__title">Myself<br><span class="home__title-color">Kaushal</span><br>a tech Enthusiast</h1>
+<section id="skills">
+<h2>Skills</h2>
+<div class="grid">
+<div class="card">Python</div>
+<div class="card">SQL</div>
+<div class="card">Power BI</div>
+<div class="card">Tableau</div>
+<div class="card">Zoho CRM</div>
+<div class="card">Zoho Analytics</div>
+</div>
+</section>
 
-                <a href="#contact" class="button">Connect</a>
-                <a href="https://docs.google.com/document/d/1RYOC_b0lWkWMiFZKWkzn8RO7FnzuUvk0Z6J1Utd-zKc/edit?usp=sharing" target="_blank" class="button">Resume</a>
-                
-                
-            </div>
+<section id="projects">
+<h2>Featured Projects</h2>
+<div class="grid">
+<div class="card"><h3>Bus Mitra</h3><p>Tracking, ticketing, QR payments.</p></div>
+<div class="card"><h3>Ecommerce Analysis</h3><p>Insights using Python & MySQL.</p></div>
+<div class="card"><h3>Driver Drowsiness Detection</h3><p>OpenCV & Dlib solution.</p></div>
+<div class="card"><h3>Power BI Dashboard</h3><p>Business and Sales analytics.</p></div>
+</div>
+</section>
 
-            <div class="home__social">
-                <a href="https://www.linkedin.com/in/kaushal-singh-8b35a1254" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/kaushall007" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: itskaushal11@gmail.com</p>
+<p>LinkedIn | GitHub</p>
+</section>
 
-            </div>
-
-            <div class="home__img">
-                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <mask id="mask0" mask-type="alpha">
-                        <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                    </mask>
-                    <g mask="url(#mask0)">
-                        <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        <image class="home__blob-img" x="50" y="60" href="profile.png"/>
-                    </g>
-                </svg>
-            </div>
-        </section>
-
-        <!--===== ABOUT =====-->
-        <section class="about section " id="about">
-            <h2 class="section-title">About</h2>
-
-            <div class="about__container bd-grid">
-                <div class="about__img">
-                    <img src="profile-pic.gif" alt="">
-                </div>
-                    
-                <div>
-                    <h2 class="about__subtitle">I'm Kaushal</h2>
-                    <p class="about__text">As I continue to evolve and grow in my journey, I remain steadfast in my pursuit of excellence, always seeking new challenges to conquer and new heights to scale. With a blend of passion, expertise, and unwavering determination, I am poised to make a lasting mark in the ever-evolving landscape of Data Science.
-                        <br><br>
-                        Thank you for considering my portfolio, and I look forward to the opportunity to collaborate and create together.</p>           
-                </div>                                   
-            </div>
-        </section>
-
-        <!--===== SKILLS =====-->
-        <section class="skills section" id="skills">
-            <h2 class="section-title">Skills</h2>
-
-            <div class="skills__container bd-grid">      
-                   
-                <div class="card" style="width:8rem;">
-                    <img src="tech/html.png" class="card-img-top" alt="CSS">
-                    <div class="card-body">
-                        <p class="card-text">HTML</p>
-                    </div>
-                </div>
-                <div class="card" style="width: 8rem;">
-                    <img src="tech/css.png" class="card-img-top" alt="CSS">
-                    <div class="card-body">
-                        <p class="card-text">CSS</p>
-                    </div>
-                </div>
-                <div class="card" style="width: 8rem;">
-                    <img src="tech/bootstrap.png" class="card-img-top" alt="Bootstrap">
-                    <div class="card-body">
-                        <p class="card-text">Bootstrap</p>
-                    </div>
-                </div>
-                <div class="card" style="width: 8rem;">
-                    <img src="tech/js.png" class="card-img-top" alt="JavaScript">
-                    <div class="card-body">
-                        <p class="card-text">JavaScript</p>
-                    </div>
-                </div>
-                <div class="card" style="width: 8rem;">
-                    <img src="tech/c.png" class="card-img-top" alt="C">
-                    <div class="card-body">
-                        <p class="card-text">C++</p>
-                    </div>
-                </div>
-                <div class="card" style="width: 8rem;">
-                    <img src="tech/python.png" class="card-img-top" alt="Python">
-                    <div class="card-body">
-                        <p class="card-text">Python</p>
-                    </div>
-                </div>
-                <div class="card" style="width: 8rem;">
-                    <img src="tech/java.png" class="card-img-top" alt="Java">
-                    <div class="card-body">
-                        <p class="card-text">Java</p>
-                    </div>
-                </div>
-                <div class="card" style="width: 8rem;">
-                    <img src="tech/sql.png" class="card-img-top" alt="SQL">
-                    <div class="card-body">
-                        <p class="card-text">SQL</p>
-                    </div>
-                </div>
-                <div class="card" style="width: 8rem;">
-                    <img src="tech/powerbi.png" class="card-img-top" alt="PowerBI">
-                    <div class="card-body">
-                        <p class="card-text">PowerBI</p>
-                    </div>
-                </div>
-                <div class="card" style="width: 8rem;">
-                    <img src="tech/git.png" class="card-img-top" alt="Git">
-                    <div class="card-body">
-                        <p class="card-text">Git</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <!--===== Project =====-->
-        <section class="work section" id="work">
-            <h2 class="section-title">Project</h2>
-
-            <div class="work__container bd-grid">    
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="./project/ddd.png" alt="Avatar" >
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>Driver Drowsy Detection</h1> 
-                    <p>Python, OpenCV</p> 
-                    <a href="https://github.com/kaushall007/Driver-Drowsy-Detection" class="work_link">github link</a>
-                    
-                  </div>
-                </div>
-              </div>
-              
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="./project/calculator.png" alt="Avatar" >
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>Scientific Calculator</h1> 
-                    <p>Python, Tkinter</p> 
-                    <a href="https://github.com/kaushall007/Calculator" class="work_link">github link</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="./project/bank.png" alt="Avatar" >
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>Bank Management System</h1> 
-                    <p>Python, Flask,Jinja2 </p> 
-                    <a href="https://github.com/kaushall007/Bank-Management-System" class="work_link">github link</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="./project/rps.png" alt="Avatar" >
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>Rock Paper Scissor Game</h1> 
-                    <p>HTML, CSS, JS</p> 
-                    <a href="https://kaushall007.github.io/rock-paper-scissor/"class="work_link">Deploy Link</a><br>
-                    <a href="https://github.com/kaushall007/rock-paper-scissor" class="work_link">github link</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="./project/chill.png" alt="Avatar" >
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>Chillex (Movie Recommendation)</h1> 
-                    <p>HTML, CSS, JavaScript</p> 
-                    <a href="https://github.com/kaushall007/Chillex" class="work_link">github link</a>
-                  </div>
-                </div>
-              </div>
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="./project/ecommerce.png" alt="Avatar" >
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>Ecommerce-sale's Analysis</h1> 
-                    <p>Python(Pandas,Matplotlib,Numpy),MySQL</p> 
-                    <a href="https://github.com/kaushall007/Ecommerce_Analysis" class="work_link">github link</a>
-                  </div>
-                </div>
-              </div>
-        </div>
-        </section>
-
-       <!-----Certificates--> 
-       <section class="certificate section" id="certificates">
-        <h2 class="section-title">Certificates</h2>
-        <div class="certifications">
-            <div class="certification">
-                <h2>Data Analysis with Python</h2>
-                <p>I successfully completed the Data Analysis with Python Developer Certification, representing approximately 300 hours of work. This course provided in-depth training on using Python for data analysis, covering various tools and techniques to handle and analyze data efficiently.</p>
-                <p class="source">Issued by freeCodeCamp</p>
-                <a class="view" target="_self" href="certificates/DATA ANALYTICS CERTIFICATE.jpeg" onclick="openModal(event)"><i class="fas fa-eye"></i> view</a> 
-            </div>
-            <div class="certification">
-                <h2>Training Certificate Of Web Development</h2>
-                <p>The certification represents about 300 hours of extensive training in creating adaptable websites for various devices. The course focused on designing websites that provide optimal viewing experiences across different screen sizes and orientations.</p>
-                <p class="source">Issued by freeCodeCamp</p>
-                <a class="view" target="_self" href="certificates/web-dev (freecodecamp).bmp" onclick="openModal(event)"><i class="fas fa-eye"></i> view</a>
-            </div>
-            <div class="certification">
-                <h2>Machine Learning with Python</h2>
-                <p>Understand supervised vs. unsupervised learning, Explore linear and non-linear regression concepts. Implement K-Nearest Neighbors (KNN), decision trees, and Logistic Regression. Learn about clustering methods like k-means, hierarchical clustering, and DBSCAN. Work with Python libraries such as SciPy and scikit-learn.</p>
-                <p class="source">Issued by IBM and Cognitive Classes</p>
-                <a class="view" target="_self" href="certificates/Machine Learning.jpeg" onclick="openModal(event)"><i class="fas fa-eye"></i> view</a>
-            </div>
-            <div class="certification">
-                <h2>Data Analytics and Visualization Job Simulation</h2>
-                <p>I completed the comprehensive Data Analytics and Visualization Job Simulation course, where I had the opportunity to learn and practice key skills in data analytics, including project understanding, data cleaning and modeling, data visualization and storytelling, and presenting to clients.</p>
-                <p class="source">Issued by Accenture and Forage</p>
-                <a class="view" target="_self"  href="certificates/Data Analytics and visualization.jpeg" onclick="openModal(event)"><i class="fas fa-eye"></i> view</a>
-            </div>
-            <div class="certification">
-                <h2>PowerBI Job Simulation</h2>
-                <p>Completed a job simulation where I strengthened my PowerBI skills to better understand clients and their data visualization needs. Demonstrated expertise in data visualization through the creation of Power BI dashboards that effectively conveyed KPIs, showcasing the ability to respond to client requests with well-designed solutions.</p>
-                <p class="source">Issued by PwC Switzerland and Forage.</p>
-                <a class="view" target="_self" href="certificates/Data Visualization by PowerBI.jpeg" onclick="openModal(event)"><i class="fas fa-eye"></i> view</a>
-            </div>
-            <div class="certification">
-                <h2>Software Engineering Job Simulation</h2>
-                <p>Set up a local dev environment by downloading the necessary files, tools and dependencies. Fixed broken files in the repository to make web application output correctly. Used JPMorgan Chase’s open source library called Perspective to generate a live graph that displays a data feed in a clear and visually appealing way for traders to monitor.</p>
-                <p class="source">Issued by JPMorgan and Forage</p>
-                <a class="view" target="_self"  href="certificates/software engineering.jpeg" onclick="openModal(event)"><i class="fas fa-eye"></i> view</a>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Modal -->
-    <div id="imageModal" class="modal">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <img class="modal-content" id="modalImage">
-    </div>
-    
-
-
-        
-        <!--===== CONTACT =====-->
-        <section class="contact section" id="contact">
-            <h2 class="section-title">Contact</h2>
-
-            <div class="contact__container bd-grid">
-                <form action="https://api.web3forms.com/submit" method="POST" class="contact__form">
-                    <input type="hidden" name="access_key" value="204ab479-687e-4da3-97b6-2430479d9b7f">
-                    <input type="text" name="name" placeholder="Name" class="contact__input" required>
-                    <input type="mail" name="email" placeholder="Email" class="contact__input" required>
-                    <textarea name="message" cols="0" rows="10" class="contact__input" required></textarea>
-                    <button  type="submit" class="contact__button button">Send </button>
-                </form>
-
-                <div class="contact__info bd-grid">
-
-                </div>
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <!--===== FOOTER =====-->
-    <footer class="footer">
-        <p class="footer__title">Kaushal</p>
-        <div class="footer__social">
-            <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-            <a href="https://www.instagram.com/kaushal.ll/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-            <a href="https://twitter.com/07_kaushall" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
-            <a href="https://wa.me/7982125256" class="footer__icon"><i class='bx bxl-whatsapp' ></i></a>
-        </div>
-        <p class="footer__copy">&#169; Kaushaltech. All rights reserved</p>
-    </footer>
-
-
-    <!--===== SCROLL REVEAL =====-->
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!--===== MAIN JS =====-->
-    <script src="script.js"></script>
-
-    
+<footer>© 2026 Kaushal Singh Chamyal</footer>
+<script src="script.js"></script>
 </body>
 </html>
